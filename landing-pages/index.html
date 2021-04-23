@@ -20,13 +20,13 @@
     height: 50px;
 }
     </style>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 
     <!-- Menu-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light font-weight-bold">
+        <a class="navbar-brand" href="">Sweet Vibes</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -34,24 +34,24 @@
         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(página atual)</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+           <!----> <li class="nav-item">
+              <a class="nav-link" href="#About">About Music</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
+                Page Content
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Ação</a>
-                <a class="dropdown-item" href="#">Outra ação</a>
+                <a class="dropdown-item" href="#History">Music History</a>
+                <a class="dropdown-item" href="#Icons">Music Icons</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Algo mais aqui</a>
+                <a class="dropdown-item" href="https://www.youtube.com/watch?v=dSBr3Gqs6tQ&list=RDMMDNXgMo0lSXg&index=15">Music Video</a>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Desativado</a>
+              <a class="nav-link" href="#">Contact us</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
@@ -108,13 +108,17 @@
       <!--/Jumbotron-->
 
       <!-- Text e photo-->
-     
-      <div class="container text-justify-content">
+
+        <header class="header" id="img" >
+            <div >
+
+      <div class="container text-justify-content font font-weight-bold
+      ">
         
       <div class="row mt-5 mb-5 ">
         <div class="col-md-6 mr-5">
   
-          <h3>About Music</h3>
+          <h3 id="About">About Music</h3>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci quaerat incidunt tempora, quas cum nostrum
             placeat, sequi vitae laborum soluta expedita suscipit corrupti iure quia exercitationem labore ducimus
@@ -153,7 +157,7 @@
                 </div>
               </div>
 
-                <h3>Music History</h3>
+                <h3 id="History">Music History</h3>
 
                 <div class="border mt-5 mb-5">
                     <p>
@@ -173,10 +177,7 @@
                       </p>
                 </div>
           
-
-          
-            
-            
+  
           </div>
         </div>
 
@@ -184,31 +185,48 @@
 
       <!--card-->
         <div class="container">
-      <h3>Music Icons</h3>
+      <h3 id>Music Icons</h3>
       <div class="card-columns mt-5 mb-5">
         <div class="card">
-          <img class="card-img-top" src=".../100px160/" alt="Imagem de capa do card">
+          <img class="card-img-top" src="https://www.francetvinfo.fr/pictures/FRHe9z4CmhwspVCVTuOO28SIKsg/752x423/2020/03/24/phpjlWCP3.jpg" alt="Imagem de capa do card">
           <div class="card-body">
-            <h5 class="card-title">Título do card que quebra em uma nova linha</h5>
-            <p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior.</p>
+            <h5 class="card-title text-center">Bibliographie</h5>
+            <p class="card-text">Naissance	
+                12 décembre 1933
+                Douala
+                Décès	
+                24 mars 2020 (à 86 ans)
+                Melun
+                Sépulture	
+                Cimetière du Père-Lachaise
+                Nom de naissance	
+                Odilien Emmanuel Dibango
+                Surnom	
+                Papa Manu / Tonton Manu
+                Nationalité	
+                Camerounais
+                Activités	
+                Compositeur, saxophoniste, chanteur, artiste d'enregistrement
+                Période d'activité	
+                1961-2020</p>
           </div>
         </div>
         <div class="card p-3">
           <blockquote class="blockquote mb-0 card-body">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <p></p>
             <footer class="blockquote-footer">
-              <small class="text-muted">
-                Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
+              <small class="text-justify-content">
+                Odilien Emmanuel Dibango<cite title="Título da fonte"></cite>
               </small>
             </footer>
           </blockquote>
         </div>
         <div class="card">
-          <img class="card-img-top" src=".../100px160/" alt="Imagem de capa do card">
+          <img class="card-img-top" src="https://i.pinimg.com/originals/30/52/15/30521571720a1164e9bcab377882bd9e.jpg" alt="Imagem de capa do card">
           <div class="card-body">
             <h5 class="card-title">Título do card</h5>
-            <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
-            <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+            <p class="card-text"></p>Ray Charles (1930-2004) foi um pianista, cantor e compositor norte-americano, uma das personalidades mais relevantes do soul, blues e jazz no século XX..</p>
+            <p class="card-text"><small class="text-size-25 text-justify-content">Ray Charles</small></p>
           </div>
         </div>
         <div class="card bg-primary text-white text-center p-3">
@@ -223,20 +241,20 @@
         </div>
         <div class="card text-center">
           <div class="card-body">
-            <h5 class="card-title">Título do card</h5>
-            <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+            <h5 class="card-title">Nina Simone</h5>
+            <p class="card-text">Original name Eunice Waymon, (born February 21, 1933, Tryon, North Carolina, U.S.—died April 21, 2003, Carry-le-Rouet, France).</p>
             <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
           </div>
         </div>
         <div class="card">
-          <img class="card-img" src=".../100px260/" alt="Imagem do card">
+          <img class="card-img" src="https://cdn.radiofrance.fr/s3/cruiser-production/2018/02/efe7f309-3931-4c81-b71d-732a1e0bba02/560x315_nina_simone_jack_vartoogian_getty.jpg" alt="Imagem do card">
         </div>
         <div class="card p-3 text-right">
           <blockquote class="blockquote mb-0">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <p>American singer who created urgent emotional intensity by singing songs of love, protest, and Black empowerment in a dramatic style, with a rough-edged voice..</p>
             <footer class="blockquote-footer">
               <small class="text-muted">
-                Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
+                Marouane <cite title="Título da fonte">Título da fonte</cite>
               </small>
             </footer>
           </blockquote>
@@ -244,7 +262,7 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Título do card</h5>
-            <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.</p>
+            <p class="card-text"><img class="card-img-top" src="https://www.rollingstone.fr/RS-WP-magazine/wp-content/uploads/2016/04/NinaSimone.png" alt="Imagem de capa do card"></p>
             <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
           </div>
         </div>
@@ -252,12 +270,17 @@
     </div>
       <!--/Card-->
 
+    </div>
+    </header>
+
+
+    <header class="header2" id="img">
        <!--Formulário de contato-->
         <div class="container">
     <div class="row mb-5">
         <div class="col-md-12">
           <h4 class="text-center">
-            Entre em contato com a gente
+            Contact us
           </h4>
         </div>
       </div>
@@ -266,28 +289,38 @@
         <div class="col-md-6">
           <form>
             <div class="form-group">
+                <label for="exampleFormControlInput1">Nome</label>
+                <input type="text" class="form-control" id="nome" placeholder="" onkeyup="validaNome()">
+                <div id="txtNome"></div>
+              </div>
+             
+
+            <div class="form-group">
               <label for="exampleFormControlInput1">Endereço de email</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+              <input type="email" class="form-control" id="email" placeholder="nome@exemplo.com" onkeyup="validaEmail()">
+              <div id="txtEmail"></div>  
             </div>
            
             <div class="form-group">
-              <label for="exampleFormControlTextarea1">Exemplo de textarea</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <label for="exampleFormControlTextarea1">Comentario</label>
+              <textarea class="form-control" name="comentario" id="comentario" rows="3" onkeyup="validaComentario()"></textarea>
+              <div id="txtComentario"></div>
             </div>
   
             <div class="form-group d-flex justify-content-end">
-              <button class="btn btn-outline-success">Enviar</button>
+              <button class="btn btn-outline-success" onclick="enviar()">Enviar</button>
             </div>
           </form>
         </div>
   
         <div class="col-md-6">
-          <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.106696296001!2d-46.65390548535577!3d-23.564611167596592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c7f481fd9f%3A0x9982bfde4df54830!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1spt-BR!2sbr!4v1594056507065!5m2!1spt-BR!2sbr" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.106696296001!2d-46.65390548535577!3d-23.564611167596592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c7f481fd9f%3A0x9982bfde4df54830!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1spt-BR!2sbr!4v1594056507065!5m2!1spt-BR!2sbr" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" id="mapa" onmousemove="mapazoom()" onmouseout="mapanormal()"></iframe>
         </div>
       </div>
     </div>
       
-  
+</header>
+
       <!--/Formulário de contato-->
   
       <!-- Rodapé -->
@@ -330,6 +363,9 @@
        </div>
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+
+       <script src="assets/js/script.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

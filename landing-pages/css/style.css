@@ -1,8 +1,43 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    
+    background-image: url(https://redpithemes.com/Documentation/assets/img/page_bg/page_bg_00.jpg), url(paper.gif);
+  background-position: right bottom, left top;
+  background-repeat: repeat, no-repeat;
+  padding: 15px;
+  margin: 0;
+  color: black;
+  
+}
+
+#img{
+    filter: grayscale(10%);
+    
+
+}
+
+
+.header2{
+    
+    background-image: url(), url(paper.gif);
+  background-position: right bottom, left top;
+  background-repeat: repeat, no-repeat;
+  padding: 15px;
+  margin: 0;
+  /*color: black;*/
+  background-color: bdc3c7;
+  
+}
+
 .border{
-    border-width:5px;
-     border-style:double;
- border-color:black;
+padding: 15px;
+background-color:2c3e50 ;
 }
+
 .color{
-    color:e67e22 ;
+    color: 2c3e50;
 }
+
